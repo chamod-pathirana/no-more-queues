@@ -33,7 +33,7 @@ export function getAllPolls(page, size) {
     });
 }
 
-export function createPoll(pollData) {
+export function createFuelRequest(pollData) {
     return request({
         url: API_BASE_URL + "/polls",
         method: 'POST',
